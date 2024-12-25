@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureAIVision", "AzureAIVision", "{9641CA90-A020-4474-80AC-7CAB0921E8A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalyzeImages", "AzureAIVision\AnalyzeImages\AnalyzeImages.csproj", "{DC13701C-4549-478D-9434-6113807B640B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC13701C-4549-478D-9434-6113807B640B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC13701C-4549-478D-9434-6113807B640B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC13701C-4549-478D-9434-6113807B640B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC13701C-4549-478D-9434-6113807B640B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC13701C-4549-478D-9434-6113807B640B} = {9641CA90-A020-4474-80AC-7CAB0921E8A0}
+	EndGlobalSection
+EndGlobal
