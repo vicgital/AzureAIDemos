@@ -1,11 +1,106 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureAIVision", "AzureAIVision", "{9641CA90-A020-4474-80AC-7CAB0921E8A0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalyzeImages", "AzureAIVision\AnalyzeImages\AnalyzeImages.csproj", "{DC13701C-4549-478D-9434-6113807B640B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ImageClassification", "ImageClassification", "{AB512C12-69A3-411F-8377-C3B4AF9CE124}"
+	ProjectSection(SolutionItems) = preProject
+		AzureAIVision\ImageClassification\README.md = AzureAIVision\ImageClassification\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test-images", "test-images", "{3EF6936E-6C86-44CA-8E97-C3637BADEDB3}"
+	ProjectSection(SolutionItems) = preProject
+		AzureAIVision\ImageClassification\test-images\IMG_TEST_1.jpg = AzureAIVision\ImageClassification\test-images\IMG_TEST_1.jpg
+		AzureAIVision\ImageClassification\test-images\IMG_TEST_2.jpg = AzureAIVision\ImageClassification\test-images\IMG_TEST_2.jpg
+		AzureAIVision\ImageClassification\test-images\IMG_TEST_3.jpg = AzureAIVision\ImageClassification\test-images\IMG_TEST_3.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "training-images", "training-images", "{E3BB85FA-D8EA-4310-A6E7-AEDD63413625}"
+	ProjectSection(SolutionItems) = preProject
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_164759.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_164759.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_164760.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_164760.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_164804.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_164804.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_164811.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_164811.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_164819.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_164819.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_164823.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_164823.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_164830.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_164830.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_164851.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_164851.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_164901.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_164901.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_164918.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_164918.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_164919.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_164919.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_164925.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_164925.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_164926jpg.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_164926jpg.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_164932.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_164932.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_164936.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_164936.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_164947.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_164947.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_164952.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_164952.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_164957.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_164957.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_164958.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_164958.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_165001.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_165001.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_165002.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_165002.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_165008.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_165008.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_165016.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_165016.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_165020.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_165020.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_165021.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_165021.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_165026.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_165026.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_165027.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_165027.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_165033.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_165033.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_165046.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_165046.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_165047.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_165047.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_165108.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_165108.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_165112.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_165112.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_165115.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_165115.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_165126.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_165126.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_165132.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_165132.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_165147.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_165147.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_165152.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_165152.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_165157.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_165157.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_165202.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_165202.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_165219.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_165219.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_165220.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_165220.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_165223.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_165223.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_165232.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_165232.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_165234.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_165234.jpg
+		AzureAIVision\ImageClassification\training-images\IMG_20200229_165236.jpg = AzureAIVision\ImageClassification\training-images\IMG_20200229_165236.jpg
+		AzureAIVision\ImageClassification\training-images\training_labels.json = AzureAIVision\ImageClassification\training-images\training_labels.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ObjectDetection", "ObjectDetection", "{3C9BB177-2050-44AC-8AE3-91042048092F}"
+	ProjectSection(SolutionItems) = preProject
+		AzureAIVision\ObjectDetection\README.md = AzureAIVision\ObjectDetection\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDetector", "AzureAIVision\ObjectDetection\TestDetector\TestDetector.csproj", "{F736C13F-C469-426F-AC97-95128C3FB126}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainDetector", "AzureAIVision\ObjectDetection\TrainDetector\TrainDetector.csproj", "{D61E828F-8C10-460D-8C75-8F780E8CB70E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Face", "Face", "{6871D8BA-73DA-4CBB-A3BF-0713F3DB6C7A}"
+	ProjectSection(SolutionItems) = preProject
+		AzureAIVision\Face\README.md = AzureAIVision\Face\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputerVision", "AzureAIVision\Face\ComputerVision\ComputerVision.csproj", "{9D5640E4-A7DE-4381-B97A-71E2D866D689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceApi", "AzureAIVision\Face\FaceApi\FaceApi.csproj", "{D246F95E-0DC4-4A20-8229-832EE2B59367}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OCR", "OCR", "{D2006FE2-4B14-4CCE-A9F2-4CB01AAD9AC0}"
+	ProjectSection(SolutionItems) = preProject
+		AzureAIVision\OCR\README.md = AzureAIVision\OCR\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VideoIndexer", "VideoIndexer", "{750614F0-75DE-4DD3-9A00-680518E124A1}"
+	ProjectSection(SolutionItems) = preProject
+		AzureAIVision\VideoIndexer\analyze-video.html = AzureAIVision\VideoIndexer\analyze-video.html
+		AzureAIVision\VideoIndexer\get-videos.ps1 = AzureAIVision\VideoIndexer\get-videos.ps1
+		AzureAIVision\VideoIndexer\README.md = AzureAIVision\VideoIndexer\README.md
+		AzureAIVision\VideoIndexer\responsible_ai.mp4 = AzureAIVision\VideoIndexer\responsible_ai.mp4
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadText", "AzureAIVision\OCR\ReadText\ReadText.csproj", "{785651C7-543F-4677-A249-A29E524D6C0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,11 +112,43 @@ Global
 		{DC13701C-4549-478D-9434-6113807B640B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC13701C-4549-478D-9434-6113807B640B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC13701C-4549-478D-9434-6113807B640B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F736C13F-C469-426F-AC97-95128C3FB126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F736C13F-C469-426F-AC97-95128C3FB126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F736C13F-C469-426F-AC97-95128C3FB126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F736C13F-C469-426F-AC97-95128C3FB126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D61E828F-8C10-460D-8C75-8F780E8CB70E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61E828F-8C10-460D-8C75-8F780E8CB70E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D61E828F-8C10-460D-8C75-8F780E8CB70E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D61E828F-8C10-460D-8C75-8F780E8CB70E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D5640E4-A7DE-4381-B97A-71E2D866D689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D5640E4-A7DE-4381-B97A-71E2D866D689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D5640E4-A7DE-4381-B97A-71E2D866D689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D5640E4-A7DE-4381-B97A-71E2D866D689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D246F95E-0DC4-4A20-8229-832EE2B59367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D246F95E-0DC4-4A20-8229-832EE2B59367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D246F95E-0DC4-4A20-8229-832EE2B59367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D246F95E-0DC4-4A20-8229-832EE2B59367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{785651C7-543F-4677-A249-A29E524D6C0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{785651C7-543F-4677-A249-A29E524D6C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{785651C7-543F-4677-A249-A29E524D6C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{785651C7-543F-4677-A249-A29E524D6C0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DC13701C-4549-478D-9434-6113807B640B} = {9641CA90-A020-4474-80AC-7CAB0921E8A0}
+		{AB512C12-69A3-411F-8377-C3B4AF9CE124} = {9641CA90-A020-4474-80AC-7CAB0921E8A0}
+		{3EF6936E-6C86-44CA-8E97-C3637BADEDB3} = {AB512C12-69A3-411F-8377-C3B4AF9CE124}
+		{E3BB85FA-D8EA-4310-A6E7-AEDD63413625} = {AB512C12-69A3-411F-8377-C3B4AF9CE124}
+		{3C9BB177-2050-44AC-8AE3-91042048092F} = {9641CA90-A020-4474-80AC-7CAB0921E8A0}
+		{F736C13F-C469-426F-AC97-95128C3FB126} = {3C9BB177-2050-44AC-8AE3-91042048092F}
+		{D61E828F-8C10-460D-8C75-8F780E8CB70E} = {3C9BB177-2050-44AC-8AE3-91042048092F}
+		{6871D8BA-73DA-4CBB-A3BF-0713F3DB6C7A} = {9641CA90-A020-4474-80AC-7CAB0921E8A0}
+		{9D5640E4-A7DE-4381-B97A-71E2D866D689} = {6871D8BA-73DA-4CBB-A3BF-0713F3DB6C7A}
+		{D246F95E-0DC4-4A20-8229-832EE2B59367} = {6871D8BA-73DA-4CBB-A3BF-0713F3DB6C7A}
+		{D2006FE2-4B14-4CCE-A9F2-4CB01AAD9AC0} = {9641CA90-A020-4474-80AC-7CAB0921E8A0}
+		{750614F0-75DE-4DD3-9A00-680518E124A1} = {9641CA90-A020-4474-80AC-7CAB0921E8A0}
+		{785651C7-543F-4677-A249-A29E524D6C0B} = {D2006FE2-4B14-4CCE-A9F2-4CB01AAD9AC0}
 	EndGlobalSection
 EndGlobal
