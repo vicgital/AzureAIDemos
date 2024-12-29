@@ -161,7 +161,7 @@ namespace AnalyzeImages
             // Define the API version and mode
             string apiVersion = "2023-02-01-preview";
             string mode = "backgroundRemoval"; // Can be "foregroundMatting" or "backgroundRemoval"
-
+  
             string url = $"computervision/imageanalysis:segment?api-version={apiVersion}&mode={mode}";
 
             // Make the REST call
