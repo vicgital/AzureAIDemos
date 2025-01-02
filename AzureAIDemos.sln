@@ -112,6 +112,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QuestionAnswering", "Questi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestionAnswering", "AzureAILanguage\QuestionAnswering\QuestionAnswering.csproj", "{62AED0B5-0331-4C3E-B744-47910AE33C71}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Language Understanding", "Language Understanding", "{3C74FE59-3508-4566-ACAE-F6D972882EFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageUnderstanding", "AzureAILanguage\LanguageUnderstanding\LanguageUnderstanding.csproj", "{26F9CBE1-E5F2-4889-9091-F00DF9DB2587}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -150,6 +154,10 @@ Global
 		{62AED0B5-0331-4C3E-B744-47910AE33C71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62AED0B5-0331-4C3E-B744-47910AE33C71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62AED0B5-0331-4C3E-B744-47910AE33C71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F9CBE1-E5F2-4889-9091-F00DF9DB2587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F9CBE1-E5F2-4889-9091-F00DF9DB2587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F9CBE1-E5F2-4889-9091-F00DF9DB2587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F9CBE1-E5F2-4889-9091-F00DF9DB2587}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -172,5 +180,7 @@ Global
 		{79871A32-0155-44FF-8F54-9180AD3CA8BE} = {85107C60-5829-40EB-A47C-024FD574A88A}
 		{67CB9450-E820-4010-B388-814C42C0D8BE} = {0446CEBC-77AA-4343-AD01-E9387E6E3F3C}
 		{62AED0B5-0331-4C3E-B744-47910AE33C71} = {67CB9450-E820-4010-B388-814C42C0D8BE}
+		{3C74FE59-3508-4566-ACAE-F6D972882EFB} = {0446CEBC-77AA-4343-AD01-E9387E6E3F3C}
+		{26F9CBE1-E5F2-4889-9091-F00DF9DB2587} = {3C74FE59-3508-4566-ACAE-F6D972882EFB}
 	EndGlobalSection
 EndGlobal
