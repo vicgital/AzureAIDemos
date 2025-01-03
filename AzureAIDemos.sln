@@ -116,6 +116,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Language Understanding", "L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageUnderstanding", "AzureAILanguage\LanguageUnderstanding\LanguageUnderstanding.csproj", "{26F9CBE1-E5F2-4889-9091-F00DF9DB2587}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TextClassification", "TextClassification", "{F2C64DF6-0E60-4F85-AB4D-21814B31E691}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextClassification", "TextClassification\TextClassification.csproj", "{E8896818-F1FB-4DC3-826E-79EF33E2F4DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -158,6 +162,10 @@ Global
 		{26F9CBE1-E5F2-4889-9091-F00DF9DB2587}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26F9CBE1-E5F2-4889-9091-F00DF9DB2587}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26F9CBE1-E5F2-4889-9091-F00DF9DB2587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8896818-F1FB-4DC3-826E-79EF33E2F4DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8896818-F1FB-4DC3-826E-79EF33E2F4DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8896818-F1FB-4DC3-826E-79EF33E2F4DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8896818-F1FB-4DC3-826E-79EF33E2F4DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -182,5 +190,7 @@ Global
 		{62AED0B5-0331-4C3E-B744-47910AE33C71} = {67CB9450-E820-4010-B388-814C42C0D8BE}
 		{3C74FE59-3508-4566-ACAE-F6D972882EFB} = {0446CEBC-77AA-4343-AD01-E9387E6E3F3C}
 		{26F9CBE1-E5F2-4889-9091-F00DF9DB2587} = {3C74FE59-3508-4566-ACAE-F6D972882EFB}
+		{F2C64DF6-0E60-4F85-AB4D-21814B31E691} = {0446CEBC-77AA-4343-AD01-E9387E6E3F3C}
+		{E8896818-F1FB-4DC3-826E-79EF33E2F4DD} = {F2C64DF6-0E60-4F85-AB4D-21814B31E691}
 	EndGlobalSection
 EndGlobal
