@@ -136,6 +136,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureAISpeechDemo", "AzureA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSpeechTranslationDemo", "AzureAISpeech\AzureSpeechTranslationDemo\AzureSpeechTranslationDemo.csproj", "{4D07FCA5-1B65-4113-B9B3-04981099BCC0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureAISearch", "AzureAISearch", "{0F2A0B8C-B3C9-42E0-B4BC-A97A89E1E5E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSearch", "AzureAISearch\AzureSearch\AzureSearch.csproj", "{0F5972C5-561B-44A4-885D-812BC26C2D7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -198,6 +202,10 @@ Global
 		{4D07FCA5-1B65-4113-B9B3-04981099BCC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D07FCA5-1B65-4113-B9B3-04981099BCC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D07FCA5-1B65-4113-B9B3-04981099BCC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F5972C5-561B-44A4-885D-812BC26C2D7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F5972C5-561B-44A4-885D-812BC26C2D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F5972C5-561B-44A4-885D-812BC26C2D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F5972C5-561B-44A4-885D-812BC26C2D7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -230,5 +238,6 @@ Global
 		{E27942E3-92A9-44F0-929D-95287D775BA8} = {B0D8332B-DB87-4197-B2DE-4FF598FABAB4}
 		{67848DCA-8A81-4D71-8F22-F1277B8F8F8F} = {5482968A-2634-43D3-A13F-D8F6698098DD}
 		{4D07FCA5-1B65-4113-B9B3-04981099BCC0} = {5482968A-2634-43D3-A13F-D8F6698098DD}
+		{0F5972C5-561B-44A4-885D-812BC26C2D7B} = {0F2A0B8C-B3C9-42E0-B4BC-A97A89E1E5E0}
 	EndGlobalSection
 EndGlobal
