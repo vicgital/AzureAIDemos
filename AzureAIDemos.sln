@@ -140,6 +140,117 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureAISearch", "AzureAISea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSearch", "AzureAISearch\AzureSearch\AzureSearch.csproj", "{0F5972C5-561B-44A4-885D-812BC26C2D7B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomSkills", "CustomSkills", "{8C979AC7-C8FF-403E-A5FE-66DB561BAD0B}"
+	ProjectSection(SolutionItems) = preProject
+		AzureAISearch\CustomSkills\READMe.md = AzureAISearch\CustomSkills\READMe.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup", "Setup", "{57D2D109-038C-4D56-80C2-6CA6DB6613FC}"
+	ProjectSection(SolutionItems) = preProject
+		AzureAISearch\CustomSkills\setup\setup.cmd = AzureAISearch\CustomSkills\setup\setup.cmd
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomSkills", "AzureAISearch\CustomSkills\CustomSkills.csproj", "{895CAD63-C5FE-4565-A853-C6A489B23968}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "create-search", "create-search", "{7DEFE686-FFF5-48EC-81E5-CC96F29C7DF9}"
+	ProjectSection(SolutionItems) = preProject
+		AzureAISearch\CustomSkills\setup\create-search\create-search.cmd = AzureAISearch\CustomSkills\setup\create-search\create-search.cmd
+		AzureAISearch\CustomSkills\setup\create-search\data_source.json = AzureAISearch\CustomSkills\setup\create-search\data_source.json
+		AzureAISearch\CustomSkills\setup\create-search\index.json = AzureAISearch\CustomSkills\setup\create-search\index.json
+		AzureAISearch\CustomSkills\setup\create-search\indexer.json = AzureAISearch\CustomSkills\setup\create-search\indexer.json
+		AzureAISearch\CustomSkills\setup\create-search\skillset.json = AzureAISearch\CustomSkills\setup\create-search\skillset.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{BA465836-DA06-4A6A-8C26-9BD8BB32C92F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "update-search", "update-search", "{85131B1A-7FCB-4E9A-B5F2-AE0888397A22}"
+	ProjectSection(SolutionItems) = preProject
+		AzureAISearch\CustomSkills\setup\update-search\update-index.json = AzureAISearch\CustomSkills\setup\update-search\update-index.json
+		AzureAISearch\CustomSkills\setup\update-search\update-indexer.json = AzureAISearch\CustomSkills\setup\update-search\update-indexer.json
+		AzureAISearch\CustomSkills\setup\update-search\update-search.cmd = AzureAISearch\CustomSkills\setup\update-search\update-search.cmd
+		AzureAISearch\CustomSkills\setup\update-search\update-skillset.json = AzureAISearch\CustomSkills\setup\update-search\update-skillset.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "collateral", "collateral", "{E6A54B7F-DA55-439E-AADC-FDD95D73EDC6}"
+	ProjectSection(SolutionItems) = preProject
+		AzureAISearch\CustomSkills\setup\data\collateral\Dubai Brochure.pdf = AzureAISearch\CustomSkills\setup\data\collateral\Dubai Brochure.pdf
+		AzureAISearch\CustomSkills\setup\data\collateral\Las Vegas Brochure.pdf = AzureAISearch\CustomSkills\setup\data\collateral\Las Vegas Brochure.pdf
+		AzureAISearch\CustomSkills\setup\data\collateral\London Brochure.pdf = AzureAISearch\CustomSkills\setup\data\collateral\London Brochure.pdf
+		AzureAISearch\CustomSkills\setup\data\collateral\Margies Travel Company Info.pdf = AzureAISearch\CustomSkills\setup\data\collateral\Margies Travel Company Info.pdf
+		AzureAISearch\CustomSkills\setup\data\collateral\New York Brochure.pdf = AzureAISearch\CustomSkills\setup\data\collateral\New York Brochure.pdf
+		AzureAISearch\CustomSkills\setup\data\collateral\San Francisco Brochure.pdf = AzureAISearch\CustomSkills\setup\data\collateral\San Francisco Brochure.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "reviews", "reviews", "{220013D4-F150-46C3-8EEB-50B3EEE56213}"
+	ProjectSection(SolutionItems) = preProject
+		AzureAISearch\CustomSkills\setup\data\reviews\201801.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201801.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201802.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201802.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201803.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201803.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201804.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201804.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201805.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201805.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201806.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201806.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201807.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201807.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201808.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201808.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201809.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201809.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201810.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201810.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201811.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201811.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201812.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201812.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201813.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201813.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201814.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201814.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201815.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201815.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201816.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201816.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201817.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201817.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201818.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201818.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201819.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201819.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201820.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201820.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201821.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201821.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201822.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201822.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201823.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201823.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201824.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201824.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201825.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201825.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201826.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201826.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201827.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201827.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201828.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201828.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201829.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201829.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201830.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201830.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201831.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201831.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201832.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201832.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201833.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201833.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201834.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201834.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201835.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201835.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201836.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201836.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201837.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201837.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201838.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201838.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201839.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201839.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201840.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201840.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201841.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201841.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201842.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201842.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201843.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201843.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201844.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201844.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201845.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201845.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201846.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201846.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201847.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201847.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201848.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201848.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201849.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201849.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201850.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201850.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201851.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201851.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201852.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201852.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201853.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201853.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201854.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201854.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201855.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201855.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201856.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201856.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201857.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201857.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201858.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201858.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201859.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201859.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201860.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201860.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201861.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201861.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201862.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201862.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201863.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201863.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201864.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201864.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201865.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201865.pdf
+		AzureAISearch\CustomSkills\setup\data\reviews\201866.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201866.pdf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -206,6 +317,10 @@ Global
 		{0F5972C5-561B-44A4-885D-812BC26C2D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F5972C5-561B-44A4-885D-812BC26C2D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F5972C5-561B-44A4-885D-812BC26C2D7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{895CAD63-C5FE-4565-A853-C6A489B23968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{895CAD63-C5FE-4565-A853-C6A489B23968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{895CAD63-C5FE-4565-A853-C6A489B23968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{895CAD63-C5FE-4565-A853-C6A489B23968}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -239,5 +354,13 @@ Global
 		{67848DCA-8A81-4D71-8F22-F1277B8F8F8F} = {5482968A-2634-43D3-A13F-D8F6698098DD}
 		{4D07FCA5-1B65-4113-B9B3-04981099BCC0} = {5482968A-2634-43D3-A13F-D8F6698098DD}
 		{0F5972C5-561B-44A4-885D-812BC26C2D7B} = {0F2A0B8C-B3C9-42E0-B4BC-A97A89E1E5E0}
+		{8C979AC7-C8FF-403E-A5FE-66DB561BAD0B} = {0F2A0B8C-B3C9-42E0-B4BC-A97A89E1E5E0}
+		{57D2D109-038C-4D56-80C2-6CA6DB6613FC} = {8C979AC7-C8FF-403E-A5FE-66DB561BAD0B}
+		{895CAD63-C5FE-4565-A853-C6A489B23968} = {8C979AC7-C8FF-403E-A5FE-66DB561BAD0B}
+		{7DEFE686-FFF5-48EC-81E5-CC96F29C7DF9} = {57D2D109-038C-4D56-80C2-6CA6DB6613FC}
+		{BA465836-DA06-4A6A-8C26-9BD8BB32C92F} = {57D2D109-038C-4D56-80C2-6CA6DB6613FC}
+		{85131B1A-7FCB-4E9A-B5F2-AE0888397A22} = {57D2D109-038C-4D56-80C2-6CA6DB6613FC}
+		{E6A54B7F-DA55-439E-AADC-FDD95D73EDC6} = {BA465836-DA06-4A6A-8C26-9BD8BB32C92F}
+		{220013D4-F150-46C3-8EEB-50B3EEE56213} = {BA465836-DA06-4A6A-8C26-9BD8BB32C92F}
 	EndGlobalSection
 EndGlobal
