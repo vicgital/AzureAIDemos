@@ -251,6 +251,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "reviews", "reviews", "{2200
 		AzureAISearch\CustomSkills\setup\data\reviews\201866.pdf = AzureAISearch\CustomSkills\setup\data\reviews\201866.pdf
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureAIDocumentIntelligence", "AzureAIDocumentIntelligence", "{D9FE5B91-BFBA-4175-B3D8-17EBC2F25D0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PrebuildModels", "PrebuildModels", "{13EB6F2A-F4FF-4701-BFA5-44794C138834}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Custom", "Custom", "{62091222-23DB-4EF6-9086-0DBFFA7206EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrebuildModelsDemo", "AzureAIDocumentIntelligence\PrebuildModelsDemo\PrebuildModelsDemo.csproj", "{48C5A1F1-FBFA-462F-A4C9-BB49D07EFEF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -321,6 +329,10 @@ Global
 		{895CAD63-C5FE-4565-A853-C6A489B23968}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{895CAD63-C5FE-4565-A853-C6A489B23968}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{895CAD63-C5FE-4565-A853-C6A489B23968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48C5A1F1-FBFA-462F-A4C9-BB49D07EFEF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C5A1F1-FBFA-462F-A4C9-BB49D07EFEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C5A1F1-FBFA-462F-A4C9-BB49D07EFEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C5A1F1-FBFA-462F-A4C9-BB49D07EFEF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -362,5 +374,8 @@ Global
 		{85131B1A-7FCB-4E9A-B5F2-AE0888397A22} = {57D2D109-038C-4D56-80C2-6CA6DB6613FC}
 		{E6A54B7F-DA55-439E-AADC-FDD95D73EDC6} = {BA465836-DA06-4A6A-8C26-9BD8BB32C92F}
 		{220013D4-F150-46C3-8EEB-50B3EEE56213} = {BA465836-DA06-4A6A-8C26-9BD8BB32C92F}
+		{13EB6F2A-F4FF-4701-BFA5-44794C138834} = {D9FE5B91-BFBA-4175-B3D8-17EBC2F25D0D}
+		{62091222-23DB-4EF6-9086-0DBFFA7206EA} = {D9FE5B91-BFBA-4175-B3D8-17EBC2F25D0D}
+		{48C5A1F1-FBFA-462F-A4C9-BB49D07EFEF0} = {13EB6F2A-F4FF-4701-BFA5-44794C138834}
 	EndGlobalSection
 EndGlobal
