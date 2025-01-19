@@ -261,6 +261,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrebuildModelsDemo", "Azure
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomDocIntelligenceDemo", "AzureAIDocumentIntelligence\CustomDocIntelligenceDemo\CustomDocIntelligenceDemo.csproj", "{5D255764-61C9-4E47-A7F4-F8FFC559D8C6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureOpenAI", "AzureOpenAI", "{F467427D-E18E-4A66-9B79-3CE19466DE88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureOpenAIDemo01", "AzureOpenAI\AzureOpenAIDemo01\AzureOpenAIDemo01.csproj", "{D75931E5-1BCC-4F07-BA0D-5D4635EFD7BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -339,6 +343,10 @@ Global
 		{5D255764-61C9-4E47-A7F4-F8FFC559D8C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D255764-61C9-4E47-A7F4-F8FFC559D8C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D255764-61C9-4E47-A7F4-F8FFC559D8C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D75931E5-1BCC-4F07-BA0D-5D4635EFD7BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D75931E5-1BCC-4F07-BA0D-5D4635EFD7BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D75931E5-1BCC-4F07-BA0D-5D4635EFD7BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D75931E5-1BCC-4F07-BA0D-5D4635EFD7BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -384,5 +392,6 @@ Global
 		{62091222-23DB-4EF6-9086-0DBFFA7206EA} = {D9FE5B91-BFBA-4175-B3D8-17EBC2F25D0D}
 		{48C5A1F1-FBFA-462F-A4C9-BB49D07EFEF0} = {13EB6F2A-F4FF-4701-BFA5-44794C138834}
 		{5D255764-61C9-4E47-A7F4-F8FFC559D8C6} = {62091222-23DB-4EF6-9086-0DBFFA7206EA}
+		{D75931E5-1BCC-4F07-BA0D-5D4635EFD7BD} = {F467427D-E18E-4A66-9B79-3CE19466DE88}
 	EndGlobalSection
 EndGlobal
